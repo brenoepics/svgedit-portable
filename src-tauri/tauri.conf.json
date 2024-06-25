@@ -4,7 +4,7 @@
     "beforeBuildCommand": "npm run prebuild --prefix svgedit && npm run build --prefix svgedit",
     "beforeDevCommand": "npm run prebuild --prefix svgedit && npm run start --prefix svgedit",
     "devPath": "http://localhost:8000/src/editor/",
-    "distDir": "svgedit/dist/editor/"
+    "distDir": "../svgedit/dist/editor"
   },
   "package": {
     "productName": "svg-edit-portable",
