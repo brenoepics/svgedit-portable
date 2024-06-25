@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "tauri": "tauri",
-    "postinstall": "cd svgedit && yarn install"
+    "postinstall": "cd svgedit && npm install"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1"
