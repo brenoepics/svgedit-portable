@@ -45,7 +45,6 @@ jobs:
       matrix:
         language:
           - JavaScript
-          - Rust
           
     steps:
     - name: Checkout repository
