@@ -28,7 +28,9 @@ jobs:
     runs-on: ${{ matrix.platform }}
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          submodules: true  # Fetch submodules
+          
       - name: setup node
         uses: actions/setup-node@v4
         with:
