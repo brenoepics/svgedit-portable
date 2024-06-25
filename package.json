@@ -1,0 +1,13 @@
+{
+  "name": "svg-edit-portable",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "postinstall": "cd svgedit && npm install"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1"
+  }
+}
