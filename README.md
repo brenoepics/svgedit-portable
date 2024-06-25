@@ -75,4 +75,4 @@ This project is based on the [SVGEdit](https://github.com/SVG-Edit/svgedit) proj
 ## Links
 
 - [SVGEdit GitHub Repository](https://github.com/SVG-Edit/svgedit)
-- [Tauri](https://tauri.studio/)
+- [Tauri](https://tauri.app/)
