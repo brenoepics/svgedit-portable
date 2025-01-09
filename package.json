@@ -1,13 +1,13 @@
 {
   "name": "svg-edit-app",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "tauri": "tauri",
-    "postinstall": "cd svgedit && npm install"
+    "postinstall": "cd svgedit && pnpm install"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1"
+    "@tauri-apps/cli": "^2.2.2"
   }
 }
